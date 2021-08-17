@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+div.navbar {
+    width: 100%;
+    padding: 10px 30px 10px 0;
+    background-color: lightblue;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    height: 30px;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    float: right;
+    font-size: 20pt;
+    padding-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav input {
+    margin-right: 10px;
+    width: 150px;
+}
+
+.nav span {
+    margin-right: 5px;
+    font-size: 12pt;
+}
+
+div.main {
+    padding: 20px;
+}
